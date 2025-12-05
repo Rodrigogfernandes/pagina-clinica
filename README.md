@@ -16,7 +16,7 @@
 
 ## 📋 Sobre o Projeto
 
-Site institucional simples para uma clínica, construído com HTML, CSS e JavaScript puro. Contém páginas principais como `index.html`, `about.html`, `contact.html` e `schedules.html`, além de assets para estilos e imagens.
+Site institucional simples para uma clínica, construído com HTML e CSS. Contém páginas principais como `index.html`, `about.html`, `contact.html` e `schedules.html`, além de assets para estilos e imagens.
 
 Este repositório serve como uma landing page responsiva para apresentação de serviços, contatos e agendamento de horários.
 
