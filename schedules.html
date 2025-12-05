@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Médica - Horários</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Clínica Vida & Saúde - Horários</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Horários dos Médicos</h1>
-        </header>
-        
-        <nav class="sidebar">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="about.html">Sobre Nós</a></li>
-                <li><a href="schedules.html" class="active">Horários</a></li>
-                <li><a href="contact.html">Contato</a></li>
-            </ul>
-        </nav>
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <span>📍 Av. Paulista, 1000 - São Paulo</span>
+            <span>📞 Agendamentos: (11) 99999-9999 | 🕗 Seg-Sex: 8h às 20h</span>
+        </div>
+    </div>
 
-        <main class="content">
-            <h2>Horários Semanais</h2>
+    <header>
+        <div class="navbar">
+            <h1>Clínica Vida & Saúde</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                    <li><a href="schedules.html" class="active">Horários</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h2>Horários de Atendimento</h2>
+            <p>Consulte abaixo a disponibilidade semanal dos nossos especialistas.</p>
+            
             <div class="table-container">
                 <table class="schedule-table">
                     <thead>
@@ -40,29 +50,29 @@
                         <tr>
                             <td>Dr. Silva</td>
                             <td>Clínica Geral</td>
-                            <td>8:00 - 14:00</td>
+                            <td>08:00 - 14:00</td>
                             <td>13:00 - 19:00</td>
-                            <td>8:00 - 14:00</td>
+                            <td>08:00 - 14:00</td>
                             <td>13:00 - 19:00</td>
-                            <td>8:00 - 14:00</td>
+                            <td>08:00 - 14:00</td>
                         </tr>
                         <tr>
                             <td>Dra. Santos</td>
                             <td>Pediatria</td>
                             <td>13:00 - 19:00</td>
-                            <td>8:00 - 14:00</td>
+                            <td>08:00 - 14:00</td>
                             <td>13:00 - 19:00</td>
-                            <td>8:00 - 14:00</td>
+                            <td>08:00 - 14:00</td>
                             <td>13:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Dr. Oliveira</td>
                             <td>Cardiologia</td>
-                            <td>9:00 - 15:00</td>
-                            <td>9:00 - 15:00</td>
+                            <td>09:00 - 15:00</td>
+                            <td>09:00 - 15:00</td>
                             <td>-</td>
-                            <td>9:00 - 15:00</td>
-                            <td>9:00 - 15:00</td>
+                            <td>09:00 - 15:00</td>
+                            <td>09:00 - 15:00</td>
                         </tr>
                         <tr>
                             <td>Dra. Costa</td>
@@ -76,11 +86,12 @@
                     </tbody>
                 </table>
             </div>
-        </main>
+        </div>
+    </main>
 
-        <footer>
-            <p>&copy; 2024 Clínica Médica. Todos os direitos reservados.</p>
-        </footer>
-    </div>
+    <footer>
+        <p>© 2024 Clínica Vida & Saúde. Todos os direitos reservados.</p>
+        <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.6;">Responsável Técnico: Dr. Marcos V. Almeida - CRM/SP 123456</p>
+    </footer>
 </body>
 </html>
