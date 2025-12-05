@@ -44,3 +44,48 @@ Este repositório serve como uma landing page responsiva para apresentação de 
 
 Abra o `index.html` no navegador ou sirva o diretório via um servidor local. Exemplos:
 
+## 📁 Estrutura do Projeto
+
+```
+pagina-clinica/
+│
+├── [index.html](http://_vscodecontentref_/3)
+├── [about.html](http://_vscodecontentref_/4)
+├── [contact.html](http://_vscodecontentref_/5)
+├── [schedules.html](http://_vscodecontentref_/6)
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   └── img/
+│       └── gif/
+```
+
+## 🎯 Melhorias Futuras
+
+- [ ] Formulário de contato funcional (backend)
+- [ ] Integração com sistema de agendamento
+- [ ] Acessibilidade aprimorada e SEO
+- [ ] Animações e UX mais ricas
+
+## 👨‍💻 Autor
+
+<div align="center">
+
+**Rodrigo Guedes Fernandes**
+
+[![rodrigodev.net](https://img.shields.io/badge/rodrigodev.net-gree?style=for-the-badge&logo=rodrigodev&logoColor=white)](https://www.rodrigodev.net/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rodrigogfernandes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigogfernandes/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rodrigogfernandes1/)
+
+
+Desenvolvedor Full Stack especializado em tecnologias web modernas.
+
+</div>
+
+---
+
+
+## 📄 Licença
+
+Este projeto é de código aberto e está disponível para uso livre.
